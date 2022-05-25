@@ -1,0 +1,10 @@
+file = open('pangrams.txt', encoding = 'UTF-8')
+file.seek(10)
+text = file.read(10)
+text1 = file.read(10)
+text2 = file.read()
+file.close()
+
+print(text)
+print(text1)
+print(text2)
