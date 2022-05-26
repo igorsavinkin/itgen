@@ -1,0 +1,16 @@
+from math import sqrt
+import turtle
+t = turtle.Pen()
+r = int(input())
+y = sqrt(r)
+t.fillcolor("#f50505")
+t.begin_fill()
+t.forward(y)
+t.right(90)
+t.forward(y)
+t.right(90)
+t.forward(y)
+t.right(90)
+t.forward(y)
+t.right(90)
+t.end_fill()
