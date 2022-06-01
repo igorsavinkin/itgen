@@ -1,6 +1,7 @@
 i = input()
-i1 = i[-1]
-if i1 == i:
-    print('паралиндром')
-else:
+i = i.replace(' ','')
+c = i[::-1]
+if c != i:       
     print('нет')
+else:
+    print('паралиндром')
