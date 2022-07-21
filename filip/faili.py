@@ -1,0 +1,5 @@
+file = open('pangrams.txt', encoding='UTF-8')
+text = file.read()
+file.close()
+_n_= text.replace('\n',' ')
+print(_n_)
