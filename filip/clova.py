@@ -1,0 +1,5 @@
+file = open('pangrams.txt', encoding='UTF-8')
+text = file.read()
+line = text.count('\n')
+chislo = text.count(' ')
+print('Cлов в этом текстовом докуменьте: ',chislo+line+1)

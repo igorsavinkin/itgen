@@ -1,0 +1,6 @@
+file = open('pangrams.txt', encoding='UTF-8')
+text = file.readline()
+text1 = file.readline()
+text2 = file.readline()
+text3 = file.readline(56)
+print(text3)
